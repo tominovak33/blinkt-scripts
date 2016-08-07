@@ -1,0 +1,12 @@
+<form method="POST" action="/led/{{ led_number }}">
+    <label form="input_red">Red</label>
+    <input type="range" min="0" max="255" name="red" id="input_red"/>
+
+    <label form="input_green">Green</label>
+    <input type="range" min="0" max="255" name="green" id="input_green"/>
+
+    <label form="input_blue">Blue</label>
+    <input type="range" min="0" max="255" name="blue" id="input_blue"/>
+
+    <button type="submit">Submit</button>
+</form>
